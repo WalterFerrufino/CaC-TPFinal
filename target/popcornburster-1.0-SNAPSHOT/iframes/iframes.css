@@ -1,0 +1,42 @@
+:root {
+    --aqua: #00dbd1;
+    --light-aqua: #10423f;
+    --very-light-aqua: rgb(172, 229, 231);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    background-image: url(../Assets/Imgs/background.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+iframe {
+    width: 96vw;
+    height: 70vh;
+    margin: 2rem;
+}
+
+h1 {
+    color: var(--very-light-aqua);
+    font-size: 6rem;
+    margin: 2rem;
+}
+
+p {
+    color: var(--very-light-aqua);
+    font-size: 1.6rem;
+    margin: 2rem;
+}

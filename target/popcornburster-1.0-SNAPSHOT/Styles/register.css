@@ -1,0 +1,59 @@
+:root {
+    --aqua: #00dbd1;
+    --light-aqua: #10423f;
+    --very-light-aqua: rgb(172, 229, 231);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    background-image: url(../Assets/Imgs/BackgroundLogin.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 4rem;
+    padding-top: calc(35vh - 12rem);
+}
+
+input {
+    height: 3.5rem;
+    width: 24rem;
+    font-size: 1.6rem !important;
+    padding-left: .4rem;
+}
+
+::placeholder {
+    font-size: 1.6rem;
+    padding-left: 0.4rem;
+}
+
+.button {
+    height: 4rem;
+    color: var(--light-aqua);
+    font-weight: 600;
+    font-size: 1.6rem;
+    font-family: 'Orbitron', sans-serif;
+    background-color: var(--aqua);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--very-light-aqua);
+    margin: 1rem;
+    display: block;
+    -webkit-text-stroke: .1px var(--light-aqua);
+}

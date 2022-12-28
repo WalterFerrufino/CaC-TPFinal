@@ -1,0 +1,56 @@
+:root {
+    --aqua: #00dbd1;
+    --light-aqua: #10423f;
+    --very-light-aqua: rgb(172, 229, 231);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    background-image: url(../Assets/Imgs/BackgroundLogin.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 4rem;
+}
+
+main {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.title {
+    font-size: 4rem;
+    color: var(--aqua);
+    font-family: 'Orbitron', sans-serif;
+    margin: 2rem;
+}
+
+.success {
+    font-size: 3rem;
+    font-family: 'Orbitron', sans-serif;
+    color: var(--very-light-aqua);
+}
+
+.error {
+    font-size: 3rem;
+    font-family: 'Orbitron', sans-serif;
+    color: red;
+}
+
+a {
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    text-decoration: none;
+}
